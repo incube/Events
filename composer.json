@@ -1,0 +1,23 @@
+{
+    "name": "incube/event",
+    "type": "library",
+    "keywords": ["framework", "incube", "event"],
+    "description": "Event Brick, part of incube framework based on IOC, Simplicity and Flexibility",
+    "homepage": "http://github.com/Incube/Event",
+    "license": "GPLv3.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nicolas Morel",
+            "email": "incube@incubatio.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "lib"
+        ]
+    }
+}
