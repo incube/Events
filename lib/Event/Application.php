@@ -1,13 +1,12 @@
 <?php
-namespace Incube\Application;
+namespace Incube\Event;
 /** @author incubatio
   * @licence GPLv3.0 http://www.gnu.org/licenses/gpl.html
   */
 
-use Incube\Pattern\IApplication,
-    Incube\Event\EventManager;
+use Incube\Event\EventManager;
 
-class EventApplication implements IApplication{
+class Application { // implements IApplication{
 
     /** @var string */
     protected $_name;
